@@ -1,0 +1,5 @@
+- info Loaded env from /home/habibullah/Projects/medusa-docs-1.17.1/apps/api-reference/.env
+- warn You have enabled experimental feature (serverActions) in next.config.mjs.
+- warn Experimental features are not covered by semver, and may cause unexpected or broken application behavior. Use at your own risk.
+
+- info Creating an optimized production build...
