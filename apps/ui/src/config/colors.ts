@@ -1,5 +1,5 @@
 export const colors = {
-  "dark": {
+  dark: {
     "--code-text-subtle": "rgba(105, 110, 119, 1)",
     "--button-transparent-pressed": "rgba(46, 48, 53, 1)",
     "--border-base": "rgba(46, 48, 53, 1)",
@@ -85,9 +85,9 @@ export const colors = {
     "--button-inverted-gradient-to": "rgba(24, 24, 26, 1)",
     "--bg-component": "rgba(39, 40, 45, 1)",
     "--bg-field": "rgba(39, 40, 45, 1)",
-    "--bg-field-hover": "rgba(46, 48, 53, 1)"
+    "--bg-field-hover": "rgba(46, 48, 53, 1)",
   },
-  "light": {
+  light: {
     "--button-inverted": "rgba(3, 7, 18, 1)",
     "--button-inverted-gradient-from": "rgba(255, 255, 255, 1)",
     "--button-inverted-gradient-to": "rgba(255, 255, 255, 0)",
@@ -173,6 +173,6 @@ export const colors = {
     "--bg-interactive": "rgba(59, 130, 246, 1)",
     "--bg-highlight-hover": "rgba(219, 234, 254, 1)",
     "--bg-switch-off-hover": "rgba(209, 213, 219, 1)",
-    "--bg-disabled": "rgba(243, 244, 246, 1)"
-  }
+    "--bg-disabled": "rgba(243, 244, 246, 1)",
+  },
 }

@@ -1,3 +1,143 @@
 Copying file from /home/habibullah/Projects/medusa-docs-1.17.1/node_modules/@medusajs/ui-preset/src/theme/tokens/colors.ts to src/config/colors.ts...
 File copied successfully
 Running ESLint...
+Finished ESLint process
+- info Creating an optimized production build...
+Warning: Found 44 problems in 44 documents.
+
+ ├── Invalid markdown in 8 documents. (Skipping documents)
+ │   
+ │   • "docs/index.mdx" failed with YAMLParseError: Unexpected scalar at node end at line 3, column 60:
+ │   
+ │   description: "Primitives for building Medusa applications."
+ │                                                              ^
+ │   
+ │   • "docs/installation.mdx" failed with YAMLParseError: Unexpected scalar at node end at line 3, column 51:
+ │   
+ │   description: "How to install and setup Medusa UI."
+ │                                                     ^
+ │   
+ │   • "docs/colors/overview.mdx" failed with YAMLParseError: Unexpected scalar at node end at line 3, column 50:
+ │   
+ │   description: "The color system used in Medusa UI"
+ │                                                    ^
+ │   
+ │   • "docs/components/table.mdx" failed with YAMLParseError: Unexpected scalar at node end at line 3, column 54:
+ │   
+ │   description: "A Table component for displaying data."
+ │                                                        ^
+ │   
+ │   • "docs/icons/overview.mdx" failed with YAMLParseError: Unexpected scalar at node end at line 3, column 53:
+ │   
+ │   description: "React components for Medusa UI icons."
+ │                                                       ^
+ │   
+ │   • "docs/installation/medusa-admin-extension.mdx" failed with YAMLParseError: Unexpected scalar at node end at line 3, column 79:
+ │   
+ │   description: "How to install and use Medusa UI for building Admin extensions."
+ │                                                                                 ^
+ │   
+ │   • "docs/installation/standalone-project.mdx" failed with YAMLParseError: Unexpected scalar at node end at line 3, column 73:
+ │   
+ │   description: "How to install and use Medusa UI in a standalone project."
+ │                                                                           ^
+ │   
+ │   • "docs/utils/clx.mdx" failed with YAMLParseError: Unexpected scalar at node end at line 3, column 61:
+ │   
+ │   description: "Utility function for working with classNames."
+ │                                                               ^
+ │   
+ │   
+ └── 36 documents contain field data which didn't match the structure defined in the document type definition. (Skipping documents)
+     
+     • "docs/components/avatar.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/badge.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/button.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/calendar.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/checkbox.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/code-block.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/command-bar.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/command.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/container.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/copy.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/currency-input.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/date-picker.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/drawer.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/dropdown-menu.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/focus-modal.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/heading.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/icon-badge.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/icon-button.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/input.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • "docs/components/kbd.mdx" of type "Doc" has the following incompatible fields:
+       • component: "true\r" 
+     • ... 16 more documents (Use the --verbose CLI option to show all documents)
+     
+
+Generated 0 documents in .contentlayer
+- info Compiled successfully
+- info Linting and checking validity of types...
+
+./src/providers/index.tsx
+10:3  Warning: 'AiAssistantProvider' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./src/providers/search.tsx
+9:8  Warning: 'clsx' is defined but never used.  @typescript-eslint/no-unused-vars
+10:10  Warning: 'Sparkles' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+- info Collecting page data...
+- info Generating static pages (0/9)
+- info Generating static pages (2/9)
+- info Generating static pages (4/9)
+- info Generating static pages (6/9)
+- info Generating static pages (9/9)
+- info Finalizing page optimization...
+
+Route (app)                                Size     First Load JS
+┌ ● /[[...slug]]                           197 kB          363 kB
+├ ○ /assets/sitemap.xml                    0 B                0 B
+├ ○ /favicon.ico                           0 B                0 B
+├ ○ /icon.ico                              0 B                0 B
+├ ○ /opengraph-image.jpg                   0 B                0 B
+├ ○ /robots.txt                            0 B                0 B
+├ ○ /sitemap.xml                           0 B                0 B
+└ ○ /twitter-image.jpg                     0 B                0 B
++ First Load JS shared by all              166 kB
+  ├ chunks/596-74fc04fc0448fc50.js         26.1 kB
+  ├ chunks/7681-467bcedc982d405d.js        77 kB
+  ├ chunks/8043-ac2cc5cd70324386.js        8 kB
+  ├ chunks/fd9d1056-cd0aaa64a42e8ceb.js    50.5 kB
+  ├ chunks/main-app-1c010dc074aeced1.js    220 B
+  └ chunks/webpack-a66c9579acb0dd78.js     4.39 kB
+
+Route (pages)                              Size     First Load JS
+─ ○ /404                                   185 B          82.6 kB
++ First Load JS shared by all              82.4 kB
+  ├ chunks/framework-4498e84bb0ba1830.js   45.1 kB
+  ├ chunks/main-099867bc946d76fb.js        32.8 kB
+  ├ chunks/pages/_app-8af45f6c5c3cbc8e.js  201 B
+  └ chunks/webpack-a66c9579acb0dd78.js     4.39 kB
+
+○  (Static)  automatically rendered as static HTML (uses no initial props)
+●  (SSG)     automatically generated as static HTML + JSON (uses getStaticProps)
+
