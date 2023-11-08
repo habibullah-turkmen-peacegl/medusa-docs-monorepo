@@ -1,3 +1,7 @@
+[build.environment]
+  YARN_VERSION = "3.6.1"
+  NODE_ENV = "production"
+  
 [[redirects]]
   from = "/api"
   to = "/api/store"
